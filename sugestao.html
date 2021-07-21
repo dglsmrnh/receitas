@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Envie sua sugestão de prato</title>
+</head>
+<body>
+	<h1>Deixe sua sugestão</h1>
+	<div>
+		<form action="processa.php" method="POST">
+			<div>
+				<span>
+					</label><label>Nome: </label><input type="text" name="nome" placeholder="Nome completo">
+				</span>
+			</div>
+			<br/>
+			<div>
+				<span>
+					<label>Tipo de receita: </label>
+					<input type="radio" name="tipo" value="doce">Doce
+					<input type="radio" name="tipo" value="salgado">Salgado
+				</span>
+			</div>
+			<br>
+			<div>
+				<span>
+					<label>Está receita já está no livro?</label>
+					<input type="checkbox" name="existe" value="sim">Sim
+				</span>
+			</div>
+			<br>
+			<div>
+				<span>
+					<label>Nível de dificuldade: </label>
+					<select name="nivel">
+						<option value="facil">Fácil</option>					
+						<option value="moderado">Moderado</option>
+						<option value="dificl" selected>Dificil</option>
+					</select>
+				</span>
+			</div>
+			<br>
+			<div>
+				<label>Observações: </label>
+				<textarea name="observacoes" placeholder="Digite suas observações" rows="5"></textarea>
+			</div>
+			<br/>
+			<div>
+				<input type="submit" name="submit" title="Enviar">
+				<input type="reset" name="reset" title="Apagar">
+				<!-- <input type="button" name="button" value="botão">
+				<button>BUTTON</button> -->
+			</div>
+		</form>
+	</div>
+</body>
+</html>
