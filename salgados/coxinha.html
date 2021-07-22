@@ -3,72 +3,98 @@
 <head>
 	<meta charset="utf-8">
 	<title>Livro de receitas - coxinha</title>
-	<style type="text/css">
-		table, th, td{
-			border: solid;
-		}
-	</style>
+	<link rel="shortcut icon" href="imagens/favicon.ico" />
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP">
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Otomanopee+One">
+	
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<link href="../css/fontawesome/css/all.css" rel="stylesheet">
 </head>
 <body>
-	<div>
-		<h1>Receita de Coxinha</h1>
-		<div>
-			<img src="../imagens/coxinha.png" height="100px">
+	<header class="header">
+		<img src="../imagens/livro_receita.png" alt="logo do livro" title="logo do livro" height="80px" width="80px">
+		<!-- <div> -->
+			<a href="../index.html">Home</a>
+			<span>LIVRO DE RECEITAS | COXINHA</span>
+		<!-- </div> -->
+	</header>
+	<nav class="menulateral">
+		<ul>
+			<hr>
+			<span>Salgados</span>
+			<hr>
+			<li><a href="../salgados/coxinha.html">Coxinha</a></li>
+			<li><a href="../salgados/esfiha.html">Esfiha</a></li>
+			<hr>
+			<span>Doces</span>
+			<hr>
+			<li><a href="../doces/cupcake.html">Cupcake</a></li>
+			<li><a href="../salgados/brigadeiro.html">Brigadeiro</a></li>
+			<hr>
+			<li><a href="../sugestao.html">Envie sua sugestão de prato</a></li>
+		</ul>
+	</nav>
+	<div class="conteudo">
+		<div class="cabecalho">
+			<h1>Receita de Coxinha</h1>
+			<div class="imagem">
+				<img src="../imagens/coxinha.png" height="300px">
+			</div>
 		</div>
-		<div>
-			<h2>Ingredientes</h2>
+		<div class="receita">
+			<h2><i class="fas fa-cookie"></i> Ingredientes</h2>
 			<h3>Massa</h3>
-			<div>
-				<table> 
-					<thead>
-						<tr>
-							<th>Ingrediente</th>
-							<th>Quantidade</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>Água</td>
-							<td>2 litros</td>
-						</tr>
-						<tr>
-							<td>Farinha de trigo</td>
-							<td>1kg</td>
-						</tr>
-						<tr>
-							<td>Caldo de galinha</td>
-							<td>2</td>
-						</tr>
-						<tr>
-							<td>Margarina</td>
-							<td>1 colher</td>
-						</tr>
-						<tr>
-							<td>Sal</td>
-							<td>1 colher</td>
-						</tr>
-						<tr>
-							<td>Colorifico</td>
-							<td>1 colher</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
+			<ul class="negrito italico" id="id_coxinha">
+				<li>2 litros de água</li>
+				<li>1 kg de farinha de trigo peneirada</li>
+				<li>2 caldos de galinha</li>
+				<li>1 colher de margarina</li>
+				<li>1 colher rasa de sal</li>
+				<li>1 colher de colorífico</li>
+			</ul>
 			<h3>Recheio</h3>
-			<div>
-				<ul>
-					<li>1 kg de peito de frango</li>
-					<li>2 cebolas médias picadas</li>
-				</ul>
-			</div>
-			<div>
-				<dl> 
-					<dt>Flash</dt> 
-					<dd>O homem mais rápido do mundo, ou não</dd> 
-					<dt>Arrow</dt> 
-					<dd>Hobin Hood >>></dd>
-				</dl> 
-			</div>
+			<ul>
+				<li>1 kg de peito de frango cozido e desfiado</li>
+				<li>2 cebolas médias picadas</li>
+				<li>1 xícara de salsinha picada</li>
+				<li>pimenta vermelha picada a gosto</li>
+				<li>2 dentes de alho amassados</li>
+				<li>sal a gosto</li>
+				<li>colorífico a gosto</li>
+				<li>óleo ou azeite de oliva</li>
+			</ul>
+			<h3>Para empanhar</h3>
+			<ul>
+				<li>2 claras de ovo</li>
+				<li>1 litro de água</li>
+				<li>1 xícara de salsinha picada</li>
+				<li>1 pitada de sal</li>
+				<li>2 dentes de alho amassados</li>
+				<li>2 xícaras (chá) de farinha de trigo</li>
+				<li>2 kg de farinha de pão</li>
+			</ul>
+			<h2><i class="fas fa-bacon"></i> Modo de Preparo</h2>
+			<ol>
+				<h3>Para a massa</h3>
+				<li>Em uma panela, junte a água (de preferência a água que cozinhou o frango), os dois caldos de galinha, a margarina, o sal e o colorífico.</li>
+				<li>Após levantar fervura, junte a farinha peneirada e, com o auxílio de uma colher de pau, vá mexendo sem parar até que a massa desgrude da panela.</li>
+				<li>Retire a do fogo e coloque sobre uma superfície lisa e untada com margarina.</li>
+				<li>Deixe esfriar e vá sovando a massa constantemente para não criar casca.</li>
+				<h3>Para o recheio</h3>
+				<li>Em uma panela com óleo ou azeite, adicione o alho amassado, a pimenta vermelha picada e a cebola picada, frite tudo até dourar, junte o peito de frango cozido e desfiado e refogue por alguns minutos. Junte o sal e o colorífico.</li>
+				<li>Desligue o fogo e acrescente a salsinha picada, misture bem e deixe esfriar.</li>
+				<h3>Para a montagem</h3>
+				<li>Passe um pouco de manteiga nas mãos, pegue uma porção da massa (dependendo qual seja o tamanho desejado da coxinha), faça uma bolinha e com o auxílio do dedo indicador faça uma cavidade na massa.</li>
+				<li>Coloque uma porção do recheio e feche pinçando a boca da cavidade com a parte interna do polegar e do indicador.</li>
+				<h3>Para empanar</h3>
+				<li>Misture a água e as claras, bata com o auxílio de um garfo por alguns minutos, junte o sal a farinha de trigo e bata até que as bolinhas de farinha desapareçam.</li>
+				<li>Passe as coxinhas prontas por essa mistura, tire o excesso e passe pela farinha de trigo.</li>
+				<li>Após terminar de empanar as coxinhas, repita a operação.</li>
+				<h3>Para fritar</h3>
+				<li>Em um tacho ou panela funda, coloque óleo suficiente para cobrir a coxinha, deixe esquentar bem (190º a 200º C) e frite as coxinhas aos poucos para que o óleo não esfrie, o que pode fazer com que as coxinhas venham a rachar.</li>
+				<li>Espere dourar bem, escorra e aproveite.</li>
+			</ol>
 		</div>
 	</div>
 </body>

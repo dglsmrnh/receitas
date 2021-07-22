@@ -3,24 +3,51 @@
 <head> 
 	<meta charset="utf-8"> 
 	<title>Bem vindo ao livro de receitas</title> 
+	<link rel="shortcut icon" href="imagens/favicon.ico" />
+
+	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Noto+Sans+JP">
+
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+	<link href="css/fontawesome/css/all.css" rel="stylesheet">
+
 </head>
-<body bgcolor="silver" class="body">
-	<!-- <header>Cabeçalho</header> -->
-	<div>
-		<h1>Bem vindo ao livro de receitas
-			<img src="imagens/livro_receita.png" alt="logo do livro" title="logo do livro" height="50px" width="50px">
-		</h1>
-		<i><h2>O que você irá saborear aqui?</h2></i>
-		<p><b>Diversos</b> <i>pratos com os mais variados</i> <strong>temperos</strong></p>
-		<p><span>Sabores maravilhosos</span></p>
-	</div>
-	<div>
+<body>
+	<header class="header">
+		<img src="imagens/livro_receita.png" alt="logo do livro" title="logo do livro" height="80px" width="80px">
+		<!-- <div> -->
+			<a href="index.html">Home</a>
+			<span>LIVRO DE RECEITAS</span>
+		<!-- </div> -->
+	</header>
+	<nav class="menulateral">
 		<ul>
-			<li><a href="salgados/coxinha.html">Coxinha</a></li>
-			<li><a href="#">Esfiha</a></li>
+			<hr>
+			<span>Salgados</span>
+			<hr>
+			<li><a href="salgados/coxinha.html"><i class="fas fa-drumstick-bite"></i> Coxinha</a></li>
+			<li><a href="salgados/esfiha.html">Esfiha</a></li>
+			<hr>
+			<span>Doces</span>
+			<hr>
+			<li><a href="doces/cupcake.html">Cupcake</a></li>
+			<li><a href="salgados/brigadeiro.html">Brigadeiro</a></li>
+			<hr>
 			<li><a href="sugestao.html">Envie sua sugestão de prato</a></li>
 		</ul>
+	</nav>
+	<div class="conteudo">
+		<div>
+			<h2>O que você irá saborear aqui?</h2>
+			<p>Diversos pratos com os mais variados temperos</p>
+			<p><span>Sabores maravilhosos</span></p>
+		</div>
+		<div>
+			<h2>O que você irá saborear aqui?</h2>
+			<p>Diversos pratos com os mais variados temperos</p>
+			<p><span>Sabores maravilhosos</span></p>
+		</div>
 	</div>
+	
 	<!-- <footer>Rodapé</footer> -->
 </body>
 </html>
